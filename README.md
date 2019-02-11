@@ -1,4 +1,8 @@
 Team_Chooser
 ============
 
-Generate sub-team groupings randomly.
+Generate sub-team groupings randomly. Run app.rb:
+
+```
+ruby app.rb
+```
