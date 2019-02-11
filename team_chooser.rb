@@ -1,8 +1,10 @@
-class Team_Chooser
-  @team = ['aiden', 'vaith', 'brooke', 'simon', 'david']
+require_relative 'people'
 
-  def self.sample_and_remove
-    new = @team.sample
-    @team.delete_at(@team.index(new))
+class Team_Chooser
+  @people = ['aiden', 'vaith', 'brooke', 'simon', 'david']
+
+  def self.sample_and_remove(people = @people)
+    new = people.sample
+    people.delete_at(people.index(new))
   end
 end
